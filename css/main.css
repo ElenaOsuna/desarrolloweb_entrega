@@ -114,9 +114,8 @@ h1 {
 
 .holaMain {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   padding: 2rem 4rem 0;
-  background-color: rgb(156, 10, 83);
 }
 
 /*
