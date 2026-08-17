@@ -1,8 +1,12 @@
 
 
 .holaMain{
+    display: flex;
+    flex-direction:row;
+    padding: 2rem 4rem 0;
     background-color: rgb(156, 10, 83);
 }
+/*
 .contenedorMainizq{
     width: 100%;
     padding: 12rem 0 0 0;
@@ -13,4 +17,4 @@
     background-image:url(../assets/img/mainMujer.png) ;   
     background-repeat: no-repeat;
     width:100%;
-}
+}*/
