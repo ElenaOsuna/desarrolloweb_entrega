@@ -1,0 +1,36 @@
+@use"variables" as*;
+
+.containerPromo{
+    display: flex;
+    flex-direction: column;
+}
+.servicios{
+    display: flex;
+}
+.textoPromo{
+    color:$colorSecudariotexto;
+    font-size: 1.5rem;
+    margin: 0.2rem 0 0 1rem;
+}
+.titulosAlineacion{
+    padding: 4rem 4rem 6.5rem 4rem;
+}
+.cardPromoservicios{
+    margin: 0 4rem 2rem;
+}
+
+.carruselPromo{
+    width: 100%;
+    margin-bottom: 2rem;
+}
+.promocionesActuales{
+    display: flex;
+    width: 100%;
+    justify-content: center;}
+.masPromos{
+    font-size: 1.2rem;
+}
+.cardBackcolor{
+   background-color:$acentodeColor;
+   
+}
