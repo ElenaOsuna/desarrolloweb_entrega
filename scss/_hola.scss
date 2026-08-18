@@ -1,19 +1,25 @@
 
 
 .holaMain{
+    width: 100%;
     display: flex;
     flex-direction:column;
     padding: 2rem 4rem 0;
 }
-/*
-.contenedorMainizq{
+.contenedorHola{
     width: 100%;
-    padding: 12rem 0 0 0;
 }
-
-.contenedorMainder{
-    background-position: center;
-    background-image:url(../assets/img/mainMujer.png) ;   
-    background-repeat: no-repeat;
+.contenedorHolacolumnas{
+    display: flex;
+    flex-direction: row;
     width:100%;
-}*/
+}
+.textoHola{
+    width: 50%;
+}
+.holaDerecha{
+    background-position: center;
+    background-image:url(../assets/img/mainMujer.png) ;
+    background-repeat: no-repeat;
+    width: 50%;
+} 

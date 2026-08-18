@@ -85,13 +85,11 @@ h1 {
   width: 100%;
   height: 80vh;
   padding: 0 4rem 0 4rem;
-  background-color: rgb(192, 25, 25);
 }
 
 .contenedorMainizq {
   width: 100%;
   padding: 12rem 0 0 0;
-  background-color: chocolate;
 }
 
 .contenedorMainder {
@@ -115,23 +113,33 @@ h1 {
 }
 
 .holaMain {
+  width: 100%;
   display: flex;
   flex-direction: column;
   padding: 2rem 4rem 0;
 }
 
-/*
-.contenedorMainizq{
-    width: 100%;
-    padding: 12rem 0 0 0;
+.contenedorHola {
+  width: 100%;
 }
 
-.contenedorMainder{
-    background-position: center;
-    background-image:url(../assets/img/mainMujer.png) ;   
-    background-repeat: no-repeat;
-    width:100%;
-}*/
+.contenedorHolacolumnas {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.textoHola {
+  width: 50%;
+}
+
+.holaDerecha {
+  background-position: center;
+  background-image: url(../assets/img/mainMujer.png);
+  background-repeat: no-repeat;
+  width: 50%;
+}
+
 .containerPromo {
   display: flex;
   flex-direction: column;
